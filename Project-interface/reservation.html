@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/option-style.css">
+    
+  </head>
+  <body background="images/reservation.png">
+    
+    <div id="app">
+      <div class="reservation">
+        <h1><u>Registration web form</u></h1>
+          
+        <form class ="reservation-form">
+            <div class ="row">
+                <div class="box">
+                    <div class="conetnt">
+                       <label for="first_name">First Name:</label>
+                       <input type="text" id="first_name" name="first_name" required>
+                    </div>
+                    <div class="conetnt">
+                       <label for="last_name">Last Name:</label>
+                       <input type="text" id="last_name" name="last_name" required>
+                    </div>
+                    <div class="conetnt">
+                       <label for="email">Email:</label>
+                       <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="conetnt">
+                        <label for="phone">Phone:</label>
+                        <input type="number" id="phone" name="phone" required>
+                    </div>
+                    <button type="submit">Next</button>
+                </div>
+                </div>
+
+                <br>
+             <div class="row">
+                <div class="box">    
+                        <label for="guests">Number of Guests:</label>
+                        <input type="number" id="guests" name="guests" min="1" max="20" required>
+                    
+                    
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date" required>
+                    
+                    
+                        <label for="time">Time:</label>
+                        <input type="time" id="time" name="time" required>    
+
+                        <div class="conetnt">
+                        <label for="notes">Additional Notes:</label>
+                        <textarea id="notes" name="notes" rows="4" placeholder="Any special requests or additional information..."></textarea>
+                        </div>
+                        
+                        <br>
+                        <button type="submit">Next</button>
+                </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

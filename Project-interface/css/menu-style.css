@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    background-color: white;
+}
+*{
+    color: aliceblue
+}
+
+.btn{
+    margin-top: 0.5 em;
+    font-size: 1.2em;
+    color:black;
+    background: orange;
+    border: 0.1em solid black;
+    padding:0.1em;
+    text-decoration: none;
+}
+
+.btn:hover{
+    letter-spacing: .2em;
+}
+
+.section{
+    padding:3em 2em;
+    margin: 100px;
+    border: 3px solid green; 
+    background-color: black;
+    
+}
+.section .header{
+    justify-content: space-between;
+    display: flex;
+    font-size: 2em;
+}
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* emove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    width:175px;
+    height: 335px;
+    padding: 16px;
+    text-align: center;
+    background-color: LemonChiffon ;
+    border: 0.2em solid green;
+  }
+.card h3{
+    color: black
+}
+.card p{
+    color: black;
+}
+.card p b{
+    color: black;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  opacity: 0.8;
+  bottom: 23px;
+  right: 28px;
+  width: 100px;
+  height: 30px;
+}
+
+.form-popup {
+  display: none;
+  position: sticky;
+}
+
+.form-container {
+  width: 1000px;
+  padding: 10px;
+  background-color: #FDBD01;
+  border: 3px solid green;
+}
+
+.form-container .btn {
+  background-color: green;
+  color: white;
+  padding: 5px 5px;
+  width: 30%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.form-container .cancel {
+  background-color: red;
+}
+
+
+
+

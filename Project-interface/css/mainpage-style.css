@@ -1,0 +1,37 @@
+body{
+    background: #F6BE00	;
+}
+.content{
+    display: center;
+    color: black;
+    text-align: center;
+    padding: 250px;
+    
+}
+.content .logo h3{
+    text-decoration: underline;
+    font-size: 2em;
+}
+.content .logo img{
+    height: 6em;
+    float:center;
+    border:0.2em solid black;
+}
+.content button{
+    margin-top: 1em;
+    display: inline-block;
+    padding:.9em 3em;
+    font-size: 1.7em;
+    color:black;
+    background:pink;
+   
+}
+
+.content .button1:hover{
+    background: salmon;
+    color: black;
+}
+.content .button2:hover{
+    background:salmon;
+    color: black;
+}
